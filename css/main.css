@@ -1,0 +1,74 @@
+/*В разметке не используются классы или идентификаторы. 
+  Все стилистические изменения будут производиться 
+  с помощью селекторов по тегам. Это не всегда хорошо 
+  в реальной работе, но так проще понять принцип каскадности.*/
+  body {
+    margin: 0;
+  
+    /* BEGIN (write your solution here) */
+  
+    color: #333;
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 1.5;
+  
+    /* END */
+  }
+  
+  /* BEGIN (write your solution here) */
+  
+  h1 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+  
+    font-size: 60px;
+    text-align: center;
+  }
+  
+  /* END */
+  
+  h2 {
+    /* BEGIN (write your solution here) */
+  
+    margin-top: 0;
+    padding-bottom: 30px;
+  
+    font-size: 25px;
+    text-align: center;
+  
+    /* END */
+  
+    border-bottom: 2px solid #e3e3e3;
+  }
+  
+  main {
+    width: 900px;
+    margin: auto;
+  }
+  
+  /* BEGIN (write your solution here) */
+  
+  section {
+    margin-top: 50px;
+    margin-right: 0;
+    margin-bottom: 50px;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 50px;
+    padding-bottom: 0;
+    padding-left: 50px;
+  }
+  
+  section h2 {
+    padding: 0;
+  
+    text-align: left;
+  
+    border: none;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* END */
